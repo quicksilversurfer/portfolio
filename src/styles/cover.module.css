@@ -35,7 +35,7 @@
 
 @media (max-width: 767.98px) { 
     .homeWrapper {
-        justify-content: end;
+        justify-content: flex-end;
         padding-bottom: 2rem;
     }
     .home, .homeDesc {
