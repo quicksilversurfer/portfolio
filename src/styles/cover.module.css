@@ -1,11 +1,15 @@
 .detailWrapper, .homeWrapper {
     height: calc(100vh - 3rem);
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     flex-direction: column;
     justify-content: end;
+    -webkit-justify-content: flex-end;
 }
 .homeWrapper {
     justify-content: center;
+    -webkit-justify-content: flex-center;
 }
 .detailWrapper {
     padding-bottom: 4rem;
