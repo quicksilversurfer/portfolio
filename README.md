@@ -8,7 +8,7 @@ During my time here I have had the opportunity to work on the redesign of a M1 m
 
 You can find my work experience and education journey below. I'd love to hear from you and you can reach out to me at - hello@prateeksolanki.com.
 
-Cheers!
+Cheers! 🍻
 
 ---
 
