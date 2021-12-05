@@ -1,0 +1,10 @@
+.wrapper {
+    width: 100%;
+    grid-column: auto / span 12;
+}
+.style {
+    font-size: 2rem;
+    font-family: "Cambon", Tramuntana Text Pro, Tiempos Text, Georgia, serif; 
+    line-height: 1.4;
+    color: var(--primary-color);
+}

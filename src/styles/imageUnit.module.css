@@ -1,0 +1,30 @@
+@import './common.css';
+
+.wrapper {
+
+}
+
+.image {
+
+}
+
+.caption {
+    margin-top: .8rem;
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    font-size: .8rem;
+    color: var(--secondary-color);
+
+}
+
+.small {
+    grid-column: auto / span 6;
+    margin-top: 1rem;
+}
+
+.med {
+    grid-column: auto / span 6;
+
+}
+.large {
+    grid-column: auto/span 12;
+}

@@ -1,0 +1,55 @@
+.detailWrapper, .homeWrapper {
+    height: calc(100vh - 3rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.homeWrapper {
+    justify-content: center;
+}
+.detailWrapper {
+    padding-bottom: 4rem;
+}
+
+.title, .description {
+    font-size: 4rem;
+    line-height: 1.4;
+    font-family: "Cambon", Tramuntana Text Pro, Tiempos Text, Georgia, serif; 
+    color: var(--primary-color);
+}
+.title {
+    margin-bottom: 1rem;
+}
+.description {
+    font-size: 2rem;
+}
+.home, .homeDesc {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+.homeDesc {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 767.98px) { 
+    .homeWrapper {
+        justify-content: end;
+        padding-bottom: 2rem;
+    }
+    .home, .homeDesc {
+        font-size: 4rem;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    .homeDesc {
+        line-height: 1.4;
+    }
+    .description {
+        font-size: 2rem;
+    }
+    .detailWrapper {
+        padding-bottom: 4rem;
+    }
+ }

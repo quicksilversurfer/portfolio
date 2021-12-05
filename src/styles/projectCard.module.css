@@ -1,0 +1,83 @@
+@import './common.css';
+
+.wrapper {
+    text-decoration: none;
+}
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.small .innerWrapper {
+    flex-direction: row;
+}
+
+.small {
+    grid-column: auto / span 6;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.med {
+    grid-column: auto / span 6;
+
+}
+.large {
+    grid-column: auto/span 12;
+}
+
+.img {
+    width: 100%;
+    height: 18rem;
+}
+.large .largeImg {
+    height: auto;
+}
+.smallImg {
+    height: auto;
+    border-radius: 2px;
+    max-width: 7rem;
+    margin-right: 1rem;
+    max-height: 4.2rem;
+}
+
+.small .textWrapper {
+    grid-column: auto / span 8;
+    grid-column-start: 4;
+}
+
+
+.heading {
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    color: var(--link-color);
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+    width: fit-content;
+    line-height: 1.2;
+}
+
+.small .heading {
+    margin-top: 0;
+}
+
+.description {
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    color: var(--secondary-color);
+    line-height: 1.4;
+    
+}
+
+@media (max-width: 575.98px) { 
+    .med, .small {
+        grid-column: auto / span 12;
+    }
+ }
+ @media (max-width: 767.98px) { 
+    .small {
+        grid-column: auto / span 12;
+    }
+    .heading {
+        line-height: 1.4;
+        margin-bottom: .3rem;
+    }
+  }

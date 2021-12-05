@@ -1,0 +1,19 @@
+@import './common.css';
+
+.canvasWrapper {
+    position: absolute;
+    height: calc(100vh - 3rem);
+    width: 100%;
+    z-index: 0;
+    /* opacity: .5; */
+    /* filter: blur(1px); */
+
+}
+.outerWrapper {
+    width: 100%;
+}
+.innerWrapper {
+    max-width: 1056px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}

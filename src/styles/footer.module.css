@@ -1,0 +1,52 @@
+@import './common.css';
+
+.wrapper {
+    width: 100%;
+    border-top: 1px solid var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    color: var(--primary-color);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.links ul, .links p {
+    margin-top: 1rem;
+}
+.listItem {
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    display: inline; 
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.listItem a {
+    text-decoration: none;
+}
+.listItem::after {
+    content: " \2014";
+    width: 40px;
+    display: inline-block; 
+    text-align: center;
+}
+.listItem:last-child::after{
+    content: none;
+  }
+
+.madeBy {
+    font-family: "Univers", 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',sans-serif;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+.madeBy svg {
+    fill: red;
+}
