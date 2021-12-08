@@ -93,11 +93,11 @@ const IndexPage = ({ data }) => {
 
       <Section
         title1="about"
-        heading="Design is a combination of problem solving & expression. A synthesis of form and content to create meaning." layout>
+        heading="Design is a combination of understanding & expression. A synthesis of form and content to create meaning." layout>
 
         <PostBlock layout>
           <p>Born and brought up in India, I studied Mechatronics engineering in school because I thought it would give me the broadest introduction to how things are built. Joined an IT company to learn how things are built on the Internet. Shifted to working at the intersection of design and engineering, to explore what I felt passionate about. And finally went to school in Italy when I realized that design was my true calling.</p>
-          <p>For me, design is about understanding a domain and the people you are designing for in order to find meaning. And crafting solutions for people that are aesthetically pleasing and desirable - the creation of form.</p>
+          <p>For me, design is about understanding a domain and the people you are designing for in order to find meaning - a meaning for a product or experience to exist in people's lives, and how that relationship of use and experience evolves over time. And crafting solutions for people that are aesthetically pleasing and desirable - the creation of form.</p>
           <p>Design is the medium through which I express the change I want to see in the world, and work with people and teams attempting to do the same.</p>
           <p>Cheers! 🍻</p>
         </PostBlock>
