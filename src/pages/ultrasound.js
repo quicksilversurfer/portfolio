@@ -38,7 +38,7 @@ const UltrasoundPage = ({ data }) => {
         <meta charSet="utf-8" />
         <title>Ultrasound | Prateek Solanki</title>
         <meta name="description" content="End to end design execution for an Ultrasound device." />
-        <link rel="canonical" href="http://prateeksolanki.com/ultrasound" />
+        <link rel="canonical" href="https://prateeksolanki.com/ultrasound" />
       </Helmet>
 
       <NavBar></NavBar>

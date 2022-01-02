@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => {
         <meta charSet="utf-8" />
         <title>Prateek Solanki | Portfolio</title>
         <meta name="description" content="Interaction Design portfolio of Prateek Solanki, Sr. UX Designer at Siemens Healthineers." />
-        <link rel="canonical" href="http://prateeksolanki.com" />
+        <link rel="canonical" href="https://prateeksolanki.com" />
       </Helmet>
 
       <NavBar></NavBar>

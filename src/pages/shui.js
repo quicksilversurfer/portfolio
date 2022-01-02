@@ -30,7 +30,7 @@ const ShuiPage = ({ data }) => {
         <meta charSet="utf-8" />
         <title>Shui | Prateek Solanki</title>
         <meta name="description" content="Design system for Siemens Healthineers for user interface consistency and increased internal productivity." />
-        <link rel="canonical" href="http://prateeksolanki.com/shui" />
+        <link rel="canonical" href="https://prateeksolanki.com/shui" />
       </Helmet>
 
       <NavBar></NavBar>

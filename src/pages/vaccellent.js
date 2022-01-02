@@ -32,7 +32,7 @@ const VaccellentPage = ({ data }) => {
         <meta charSet="utf-8" />
         <title>Vaccellent | Prateek Solanki</title>
         <meta name="description" content="Tools to manage, and coordinate the distribution and utilization of COVID-19 vaccines." />
-        <link rel="canonical" href="http://prateeksolanki.com/vaccellent" />
+        <link rel="canonical" href="https://prateeksolanki.com/vaccellent" />
       </Helmet>
 
       <NavBar></NavBar>
