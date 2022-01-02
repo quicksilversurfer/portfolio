@@ -7,6 +7,7 @@ import Section from "../components/section"
 import PostBlock from "../components/postBlock"
 import Blockquote from "../components/blockquote"
 import ProjectCard from "../components/projectCard"
+import ImageUnit from '../components/imageUnit'
 import Footer from '../components/footer'
 
 import { getImage } from "gatsby-plugin-image"
@@ -22,6 +23,8 @@ const VaccellentPage = ({ data }) => {
   //image data
   const shui = getImage(data.shui);
   const ultrasound = getImage(data.ultrasound);
+  const vaccellent_operations = getImage(data.vaccellent_operations);
+  const vaccellent_dashboard = getImage(data.vaccellent_dashboard);
 
   return (
     <Frame cover="vaccellent">
@@ -65,10 +68,14 @@ const VaccellentPage = ({ data }) => {
           <p>For healthcare professionals and facilities, we developed a dashboard which presented relevant and essential information regarding vaccination appointments, and inventory levels. Conversations with local healthcare partners and subject matter experts were very helpful in navigating the dynamic nature of the vaccination effort. </p>
         </PostBlock>
 
+        <ImageUnit src={vaccellent_operations} l></ImageUnit>
+
         <PostBlock heading="vaccellent dashboard">
           <p>Another novel aspect of Vaccellent was the capability to optimize the distribution of vaccines based on data-driven modelling of distribution scenarios. With the help of AI-based simulations, the expected impact on cumulative infection rate could be modelled, helping public health authorities make fast and confident decisions, reducing deaths, and the spread of infections.</p>
           <p>I worked closely with the product management, and engineering teams to understand capabilities of the AI algorithms, and created concepts for how these capabilities could be presented in simple and intuitive workflows.</p>
         </PostBlock>
+
+        <ImageUnit src={vaccellent_dashboard} l></ImageUnit>
 
         <PostBlock heading="outlook">
           <p>Despite the project being challenging in many ways - constrained timelines and resources, rapidly changing environment, lack of contact with end-users - we were able to create a compelling value proposition for Vaccellent. </p>
@@ -119,5 +126,15 @@ export const pageQuery = graphql`
           gatsbyImageData(layout: CONSTRAINED)
         }
       }
+    vaccellent_operations: file(relativePath: { eq: "tva/vaccellent_operations.png" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED)
+      }
+    }
+    vaccellent_dashboard: file(relativePath: { eq: "tva/vaccellent_dashboard.png" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED)
+      }
+    }
   }
 `
