@@ -122,6 +122,9 @@ body {
 .space-right {
   margin-right: 3rem;
 }
+.space-right-small {
+  margin-right: 2rem;
+}
 p {
   margin-bottom: 1rem;
 }
