@@ -12,7 +12,7 @@ const NavBar = () => {
             <Link className={`${navBarStyles.link}`} to="/">ps</Link>
             <div>
                 <a className={`${navBarStyles.link} link-style space-right-small`} href="https://prateeksolanki-design.notion.site/Hi-I-m-Prateek-6e5e53483929416e9a05e3f8d213c88a" target="_blank" rel="noopener noreferrer">case studies</a>
-                <a className={`${navBarStyles.link} link-style`} href="https://docs.google.com/document/d/1IVgnbVRpmHoPcfm9noHa2ZWcuguilPSF/edit?usp=sharing&ouid=111091762066531628079&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">résumé</a>
+                <a className={`${navBarStyles.link} link-style`} href="https://drive.google.com/file/d/1fP-qQRUpxVqXmcBz05-W9PLHpmlFzjf9/view?usp=sharing" target="_blank" rel="noopener noreferrer">résumé</a>
             </div>
         </nav>
     )

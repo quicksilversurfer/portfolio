@@ -96,8 +96,6 @@ const UltrasoundPage = ({ data }) => {
         <ImageUnit src={preference} caption="Overvhelming preference for Acuson Sequoia · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
         <ImageUnit src={easiest} caption="Ease of Use Rating · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
         <ImageUnit src={success} caption="Task Success Rate · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
-        <ImageUnit src={usability} caption="Usability Score · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
-        <ImageUnit src={key_difference} caption="Design Diffrentiators · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
         <ImageUnit src={leader} caption="Preferred Device · Image Credit: Siemens Healthineers / Macadamian Technologies" l></ImageUnit>
 
       </Section>
