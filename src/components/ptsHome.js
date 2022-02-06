@@ -23,7 +23,7 @@ export default class PtsHome extends React.Component {
 
   animate(time, ftime) {
       // shorten the line when it's not stretching
-      if (this.chain.length > ((this.stretch) ? 100 : 200)) this.chain.shift();
+      if (this.chain.length > ((this.stretch) ? 100 : 50)) this.chain.shift();
 
       this.form.strokeOnly("#464646", 4).line( this.chain );
       this.form.fillOnly("#464646").point( this.space.pointer, 2, "circle")
