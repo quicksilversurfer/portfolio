@@ -24,11 +24,9 @@ const UltrasoundPage = ({ data }) => {
   const learning_curve = getImage(data.learning_curve);
   const study_design = getImage(data.study_design);
   const easiest = getImage(data.easiest);
-  const key_difference = getImage(data.key_difference);
   const leader = getImage(data.leader);
   const preference = getImage(data.preference);
   const success = getImage(data.success);
-  const usability = getImage(data.usability);
   const shui = getImage(data.shui);
   const tva = getImage(data.tva);
 

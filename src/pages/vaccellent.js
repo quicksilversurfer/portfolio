@@ -52,6 +52,8 @@ const VaccellentPage = ({ data }) => {
           <p>Although well received in the limited release these products had, the project has officially been shut down. Part of what we built continues to live on and supports internal employee vaccination registrations at Siemens Healthineers and other partner companies.</p>
         </PostBlock>
 
+        <ImageUnit src={vaccellent_operations} l></ImageUnit>
+
         <PostBlock heading="value proposition">
           <p>The tools we developed addressed the following challenges for customers - </p>
           <h4>managing vaccine distrubtion effectively</h4>
@@ -68,14 +70,12 @@ const VaccellentPage = ({ data }) => {
           <p>For healthcare professionals and facilities, we developed a dashboard which presented relevant and essential information regarding vaccination appointments, and inventory levels. Conversations with local healthcare partners and subject matter experts were very helpful in navigating the dynamic nature of the vaccination effort. </p>
         </PostBlock>
 
-        <ImageUnit src={vaccellent_operations} l></ImageUnit>
+        <ImageUnit src={vaccellent_dashboard} l></ImageUnit>
 
         <PostBlock heading="vaccellent dashboard">
           <p>Another novel aspect of Vaccellent was the capability to optimize the distribution of vaccines based on data-driven modelling of distribution scenarios. With the help of AI-based simulations, the expected impact on cumulative infection rate could be modelled, helping public health authorities make fast and confident decisions, reducing deaths, and the spread of infections.</p>
           <p>I worked closely with the product management, and engineering teams to understand capabilities of the AI algorithms, and created concepts for how these capabilities could be presented in simple and intuitive workflows.</p>
         </PostBlock>
-
-        <ImageUnit src={vaccellent_dashboard} l></ImageUnit>
 
         <PostBlock heading="outlook">
           <p>Despite the project being challenging in many ways - constrained timelines and resources, rapidly changing environment, lack of contact with end-users - we were able to create a compelling value proposition for Vaccellent. </p>
