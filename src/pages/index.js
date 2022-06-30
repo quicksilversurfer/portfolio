@@ -37,17 +37,17 @@ const IndexPage = ({ data }) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Prateek Solanki | Portfolio</title>
-        <meta name="description" content="Interaction Design portfolio of Prateek Solanki, Sr. UX Designer at Siemens Healthineers." />
+        <meta name="description" content="Interaction Design portfolio of Prateek Solanki, Sr. UX Designer at AWS." />
         <link rel="canonical" href="https://prateeksolanki.com" />
       </Helmet>
 
       <NavBar></NavBar>
 
-      <Cover home title="Hello, I'm Prateek." description="I am an Interaction Designer at Siemens Healthineers, where I help design and build medical device interfaces."></Cover>
+      <Cover home title="Hello, I'm Prateek." description="I am an Interaction Designer at AWS, where I help design and build modern data infrastructures."></Cover>
 
       <Section
         title1="work"
-        heading="At Siemens, I've gained experience in end to end design execution and project management for complex medical devices." layout>
+        heading="Previoulsy at Siemens, I've gained experience in end to end design execution and project management for complex medical devices." layout>
 
         <ProjectCard
           cover={ultrasound}

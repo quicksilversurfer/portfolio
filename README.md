@@ -2,9 +2,11 @@
 
 Thank you for stopping by. 
 
-I'm Prateek, an Interaction Designer at Siemens Healthcare. I am part of small team based in Princeton, NJ, where I work on the design of medical devices and interfaces to improve the user experience and user workflow for healthcare professionals in order to support better outcomes for patients.
+I'm Prateek, an Interaction Designer at AWS. I am part of Databases group where I work on designing modern, easy-to-use, easy-to-learn management consoles for various database offerings.
 
-During my time here I have had the opportunity to work on the redesign of a M1 market radiology device, and am currently working on creating a UI design system that aims to span across the the Siemens Healthcare product portfolio.
+Previously at Siemens Healthineers, I've worked on the design of medical devices and interfaces to improve the user experience and user workflow for healthcare professionals in order to support better outcomes for patients and improve operator efficiency.
+
+I also had the opportunity to work on the redesign of a M1 market radiology device, and also worked on creating a UI design system that spans across the entire Siemens Healthineers product portfolio.
 
 You can find my work experience and education journey below. I'd love to hear from you and you can reach out to me at - hello@prateeksolanki.com.
 
@@ -16,7 +18,10 @@ Cheers! 🍻
 
 ### Work
 
-**Siemens Healthcare**, Interaction Designer [Nov' 16 - Current]
+**AWS**, Sr. UX Designer [Jun' 22 - Current]
+- Working within the Databases group to help design and build the management consoles for databases services that AWS offers.
+
+**Siemens Healthcare**, Sr. UX Designer [Nov' 16 - Jun' 22]
 
 - Design and development of Siemens Healthineers User Interface (Shui) design system, which is being rolled out to all flagship products. Shui won the Red Dot Communication Award in 2018.
 - Created a simple yet effective system that spans a multitude of medical devices, and enabled harmonization of common workflows across product lines, through close collaboration with product design teams.
