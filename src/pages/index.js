@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
 
       <Section
         title1="work"
-        heading="Previoulsy at Siemens, I've gained experience in end to end design execution and project management for complex medical devices." layout>
+        heading="Previously at Siemens, I've gained experience in end to end design execution and project management for complex medical devices." layout>
 
         <ProjectCard
           cover={ultrasound}
